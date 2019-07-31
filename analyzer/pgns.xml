@@ -30228,6 +30228,7 @@ along with CANboat.  If not, see <http://www.gnu.org/licenses/>.
             <EnumPair Value='9' Name='Auto mode' />
             <EnumPair Value='10' Name='Nav mode' />
             <EnumPair Value='13' Name='Non Follow Up mode' />
+            <EnumPair Value='14' Name='Follow Up mode' />
             <EnumPair Value='15' Name='Wind mode' />
             <EnumPair Value='18' Name='Square (Turn)' />
             <EnumPair Value='19' Name='C-Turn' />
@@ -30249,8 +30250,10 @@ along with CANboat.  If not, see <http://www.gnu.org/licenses/>.
                  <Type>Lookup table</Type>
           <Signed>false</Signed>
           <EnumValues>
-            <EnumPair Value='2' Name='Port' />
-            <EnumPair Value='3' Name='Starboard' />
+            <EnumPair Value='0' Name='Port (abs)' />
+            <EnumPair Value='1' Name='Starboard (abs)' />
+            <EnumPair Value='2' Name='Port (rel)' />
+            <EnumPair Value='3' Name='Starboard (rel)' />
             <EnumPair Value='4' Name='Left rudder (port)' />
             <EnumPair Value='5' Name='Right rudder (starboard)' />
           </EnumValues>
@@ -30582,6 +30585,7 @@ along with CANboat.  If not, see <http://www.gnu.org/licenses/>.
             <EnumPair Value='9' Name='Auto mode' />
             <EnumPair Value='10' Name='Nav mode' />
             <EnumPair Value='13' Name='Non Follow Up mode' />
+            <EnumPair Value='14' Name='Follow Up mode' />
             <EnumPair Value='15' Name='Wind mode' />
             <EnumPair Value='18' Name='Square (Turn)' />
             <EnumPair Value='19' Name='C-Turn' />
@@ -30603,8 +30607,10 @@ along with CANboat.  If not, see <http://www.gnu.org/licenses/>.
                  <Type>Lookup table</Type>
           <Signed>false</Signed>
           <EnumValues>
-            <EnumPair Value='2' Name='Port' />
-            <EnumPair Value='3' Name='Starboard' />
+            <EnumPair Value='0' Name='Port (abs)' />
+            <EnumPair Value='1' Name='Starboard (abs)' />
+            <EnumPair Value='2' Name='Port (rel)' />
+            <EnumPair Value='3' Name='Starboard (rel)' />
             <EnumPair Value='4' Name='Left rudder (port)' />
             <EnumPair Value='5' Name='Right rudder (starboard)' />
           </EnumValues>
