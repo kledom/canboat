@@ -5809,6 +5809,7 @@ Pgn pgnList[] = {
    ",9=Auto mode"               \
    ",10=Nav mode"               \
    ",13=Non Follow Up mode"     \
+   ",14=Follow Up mode"         \
    ",15=Wind mode"              \
    ",18=Square (Turn)"          \
    ",19=C-Turn"                 \
@@ -5820,8 +5821,10 @@ Pgn pgnList[] = {
    ",26=Change Course")
 
 #define LOOKUP_SIMNET_DIRECTION \
-  (",2=Port"                    \
-   ",3=Starboard"               \
+  (",0=Port (abs)"              \
+   ",1=Starboard (abs)"         \
+   ",2=Port (rel)"              \
+   ",3=Starboard (rel)"         \
    ",4=Left rudder (port)"      \
    ",5=Right rudder (starboard)")
 

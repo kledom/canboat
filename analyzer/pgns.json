@@ -26910,6 +26910,7 @@
               {"name":"Auto mode","value":"9"},
               {"name":"Nav mode","value":"10"},
               {"name":"Non Follow Up mode","value":"13"},
+              {"name":"Follow Up mode","value":"14"},
               {"name":"Wind mode","value":"15"},
               {"name":"Square (Turn)","value":"18"},
               {"name":"C-Turn","value":"19"},
@@ -26929,8 +26930,10 @@
             "Type":"Lookup table",
             "Signed":false,
             "EnumValues":[
-              {"name":"Port","value":"2"},
-              {"name":"Starboard","value":"3"},
+              {"name":"Port (abs)","value":"0"},
+              {"name":"Starboard (abs)","value":"1"},
+              {"name":"Port (rel)","value":"2"},
+              {"name":"Starboard (rel)","value":"3"},
               {"name":"Left rudder (port)","value":"4"},
               {"name":"Right rudder (starboard)","value":"5"}]},
           {
@@ -27226,6 +27229,7 @@
               {"name":"Auto mode","value":"9"},
               {"name":"Nav mode","value":"10"},
               {"name":"Non Follow Up mode","value":"13"},
+              {"name":"Follow Up mode","value":"14"},
               {"name":"Wind mode","value":"15"},
               {"name":"Square (Turn)","value":"18"},
               {"name":"C-Turn","value":"19"},
@@ -27245,8 +27249,10 @@
             "Type":"Lookup table",
             "Signed":false,
             "EnumValues":[
-              {"name":"Port","value":"2"},
-              {"name":"Starboard","value":"3"},
+              {"name":"Port (abs)","value":"0"},
+              {"name":"Starboard (abs)","value":"1"},
+              {"name":"Port (rel)","value":"2"},
+              {"name":"Starboard (rel)","value":"3"},
               {"name":"Left rudder (port)","value":"4"},
               {"name":"Right rudder (starboard)","value":"5"}]},
           {
