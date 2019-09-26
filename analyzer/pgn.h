@@ -3144,13 +3144,14 @@ Pgn pgnList[] = {
     {"Cross Track Error",
      129283,
      false,
-     6,
+     8,
      0,
      {{"SID", BYTES(1), 1, false, 0, ""},
       {"XTE mode", 4, RES_LOOKUP, false, LOOKUP_RESIDUAL_MODE, ""},
       {"Reserved", 2, RES_BINARY, false, 0, "reserved"},
       {"Navigation Terminated", 2, RES_LOOKUP, false, LOOKUP_YES_NO, ""},
       {"XTE", BYTES(4), 0.01, true, "m", ""},
+      {"Reserved", BYTES(2), RES_BINARY, false, 0, "reserved"},
       {0}}}
 
     ,

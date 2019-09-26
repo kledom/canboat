@@ -11963,7 +11963,7 @@
         "Id":"crossTrackError",
         "Description":"Cross Track Error",
         "Complete":false,
-        "Length":6,
+        "Length":8,
         "RepeatingFields":0,
         "Fields":[
           {
@@ -12022,7 +12022,17 @@
             "BitStart":0,
             "Units":"m",
             "Resolution":"0.01",
-            "Signed":true}]},
+            "Signed":true},
+          {
+            "Order":6,
+            "Id":"reserved",
+            "Name":"Reserved",
+            "Description":"reserved",
+            "BitLength":16,
+            "BitOffset":48,
+            "BitStart":0,
+            "Type":"Binary data",
+            "Signed":false}]},
       {
         "PGN":129284,
         "Id":"navigationData",
